@@ -1,5 +1,5 @@
 ---
-title: Newest Blog Post
+title: Newest Blog Post!
 featured: /assets/images/image3.png
 layout: post
 ---

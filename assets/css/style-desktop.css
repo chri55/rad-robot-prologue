@@ -207,6 +207,8 @@
 		#nav > ul
 		{
 			margin: 0;
+			font-style: italic;
+			font-family: sans-serif;
 		}
 
 		#nav > ul > li > ul
@@ -217,7 +219,6 @@
 		#nav > ul > li
 		{
 			display: inline-block;
-			font-style: italic;
 			margin: 0 0.35em 0 0.35em;
 		}
 
