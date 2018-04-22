@@ -3,8 +3,9 @@
 		<div id="header">
 
 			<!-- Logo -->
-				<h1><a href="{{ site.baseurl }}/index.html">Dopetrope</a></h1>
-
+				<div class="header-img">
+					<img src="{{ site.baseurl }}/assets/images/robo_header.png" style="height: 50; width: 50%;">
+				</div>
 			<!-- Nav -->
 				<nav id="nav">
 					<ul>
@@ -29,15 +30,11 @@
 							</ul>
 						</li>
 						{% assign current = page.url | downcase | split: '/' %}
-						<li {% if current[1] == 'left-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/left-sidebar.html">Left Sidebar</a></li>
-						<li {% if current[1] == 'right-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/right-sidebar.html">Right Sidebar</a></li>
-						<li {% if current[1] == 'no-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/no-sidebar.html">No Sidebar</a></li>
+						<li><a href="{{ site.baseurl }}/comics.html">Comics</a></li>
+						<li><a href="{{ site.baseurl }}/cartoons.html">Cartoons</a></li>
+						<li><a href="{{ site.baseurl }}/commissions.html">Commissions</a></li>
 					</ul>
 				</nav>
-
-				<div class="header-img">
-					<img src="{{ site.baseurl }}/assets/images/pic11.jpg">
-				</div>
 
 		</div>
 	</div>
